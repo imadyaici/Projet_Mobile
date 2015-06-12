@@ -1,0 +1,52 @@
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#e1f5fe"
+        android:padding="0dp"
+        tools:context="com.example.gottesdiener.projet.FragmentActivity"
+        android:weightSum="1">
+
+        <com.example.gottesdiener.projet.ActionBarView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/actionbar"
+            android:visibility="visible"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/layoutFragment">
+        </LinearLayout>
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:name="com.example.gottesdiener.projet.FragmentListeLivres"
+            android:id="@+id/fragmentlistelivres"
+            />
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:name="com.example.gottesdiener.projet.FragmentDetail"
+            android:id="@+id/fragmentdetail"
+            />
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:name="com.example.gottesdiener.projet.FragmentCommentaire"
+            android:id="@+id/fragmentcommentaire"
+            />
+
+
+    </LinearLayout>
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+    <servlet>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>com.example.a26.myapplication.backend.MyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>LivreServlet</servlet-name>
+        <servlet-class>com.example.a26.myapplication.backend.LivreServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LivreServlet</servlet-name>
+        <url-pattern>/book</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LivreTitreServelet</servlet-name>
+        <servlet-class>com.example.a26.myapplication.backend.LivreTitreServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LivreTitreServelet</servlet-name>
+        <url-pattern>/titlebook</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CountServlet</servlet-name>
+        <servlet-class>com.example.a26.myapplication.backend.CountServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CountServlet</servlet-name>
+        <url-pattern>/count</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CreationServlet</servlet-name>
+        <servlet-class>com.example.a26.myapplication.backend.CreationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreationServlet</servlet-name>
+        <url-pattern>/creation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PasswordServlet</servlet-name>
+        <servlet-class>com.example.a26.myapplication.backend.PasswordServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PasswordServlet</servlet-name>
+        <url-pattern>/pass</url-pattern>
+    </servlet-mapping>
+
+</web-app>

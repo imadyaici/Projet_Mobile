@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gottesdiener.projet.FragmentActivity">
+
+    <!--<item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />-->
+
+    <item
+        android:title="@string/logo"
+        android:id="@+id/logo"
+        android:icon="@drawable/logo_1516683_16t6113j_screen_display"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="@string/logo"
+        android:id="@+id/logo"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:title="@string/logo"
+        android:id="@+id/logo"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="@string/logo"
+        android:id="@+id/logo"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom"/>
+</menu>

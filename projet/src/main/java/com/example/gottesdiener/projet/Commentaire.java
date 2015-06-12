@@ -11,6 +11,14 @@ public class Commentaire {
     private String contenu;
     private Date date;
 
+    /**
+     * CECI EST UN TEST YA JMA3A
+     * */
+
+
+    public void fonctionmaTdirWalou (){
+
+    }
 
     public void setDate(Date date) {
         this.date = date;
